@@ -8,5 +8,8 @@ public class StudentMClass{
 
         Student st2 = new Student(st1);
         st2.display();
+
+        Student InheritStudent = new StudentInfo("Arsalan",14,"Karachi","03232036484");
+        InheritStudent.display();
     }
 }
