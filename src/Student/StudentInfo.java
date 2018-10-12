@@ -1,11 +1,14 @@
-public class StudentInfo extends Student{
+package Student;
+
+import Student.Student;
+
+public class StudentInfo extends Student {
     String city;
     String phone;
     StudentInfo(){
     }
     StudentInfo(String n,int r,String c, String p){
-        this.name = n;
-        this.rollNumber = r;
+        super(n,r);
         this.city = c;
         this.phone = p;
     }

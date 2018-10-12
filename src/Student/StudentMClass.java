@@ -1,3 +1,7 @@
+package Student;
+
+import Student.Student;
+
 public class StudentMClass{
     public static void main(String args[]){
         Student st = new Student();
